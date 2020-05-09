@@ -185,3 +185,11 @@ section.feed .container article.post div.post-status .likes span a {
 	color: black;
 	font-weight: bold;
 }
+
+@media (min-width: 728px) {
+	header .container,
+	section.stories,
+	section.feed {
+		width: 768px;
+	}
+}
