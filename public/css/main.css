@@ -141,3 +141,47 @@ section.feed .container article.post .post-header .user p {
 	font-size: 0.8rem;
 	font-weight: bold;
 }
+
+section.feed .container article.post figure {
+	height: auto;
+	margin: 0;
+	width: 100%;
+}
+
+section.feed .container article.post figure img {
+	width: 100%;
+}
+
+section.feed .container article.post div.post-status {
+	background-color: rgba(0, 0, 0, 0.05);
+	display: flex;
+	padding: 8px;
+}
+
+section.feed .container article.post div.post-status .likes {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+section.feed .container article.post div.post-status .likes .last-user-photo {
+	display: flex;
+	height: 35px;
+	margin-right: 8px;
+	width: 35px;
+}
+
+section.feed .container article.post div.post-status .likes .last-user-photo img {
+	border-radius: 100%;
+	height: 100%;
+	width: 100%;
+}
+
+section.feed .container article.post div.post-status .likes span {
+	font-size: 0.7rem;
+}
+
+section.feed .container article.post div.post-status .likes span a {
+	color: black;
+	font-weight: bold;
+}
